@@ -15,6 +15,12 @@ Minimal MCP server exposing basic arithmetic tools using the official Python MCP
 uv run fastmcp dev server.py
 ```
 
+Run MCP Inspector:
+
+```bash
+uv run fastmcp dev inspector server.py
+```
+
 ## Requirements
 
 - Python >= 3.10
