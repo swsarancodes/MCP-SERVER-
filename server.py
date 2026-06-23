@@ -1,11 +1,3 @@
-import os
-import sys
-
-# import logging
-# os.environ.setdefault("FASTMCP_SHOW_SERVER_BANNER", "false")
-# logging.basicConfig(level=logging.ERROR, stream=sys.stderr)
-# for name in ("fastmcp", "mcp", "uvicorn", "starlette"):
-#     logging.getLogger(name).setLevel(logging.ERROR)
 from fastmcp import FastMCP
 
 mcp = FastMCP("arithmetic-server")
