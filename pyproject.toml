@@ -1,0 +1,9 @@
+[project]
+name = "mcp-arithmetic-server"
+version = "0.1.0"
+description = "Minimal arithmetic MCP server using standalone FastMCP"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastmcp>=3.4.2",
+]
